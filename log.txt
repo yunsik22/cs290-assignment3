@@ -1,1 +1,123 @@
-You log goes in this  file.
+Start: Sun, 1 Feb 2015 09:45:50 -0800 
+End: Sun, 1 Feb 2015 09:45:50 -0800 
+Tasks: variables.js updated 2nd time
+
+Start: Sun, 1 Feb 2015 09:45:16 -0800 
+End: Sun, 1 Feb 2015 09:45:16 -0800 
+Tasks: functions.js updated 2nd time
+
+Start: Sun, 1 Feb 2015 02:29:06 -0800 
+End: Sun, 1 Feb 2015 02:29:06 -0800 
+Tasks: variables.js updated
+
+Start: Sun, 1 Feb 2015 02:28:30 -0800 
+End: Sun, 1 Feb 2015 02:28:30 -0800 
+Tasks: objects.js updated
+
+Start: Sun, 1 Feb 2015 02:27:59 -0800 
+End: Sun, 1 Feb 2015 02:27:59 -0800 
+Tasks: functions.js updated
+
+Start: Sat, 31 Jan 2015 21:59:37 -0800 
+End: Sat, 31 Jan 2015 21:59:37 -0800 
+Tasks: Merge remote-tracking branch 'origin/master'
+
+Start: Sat, 31 Jan 2015 21:28:21 -0800 
+End: Sat, 31 Jan 2015 21:28:21 -0800 
+Tasks: Create README.md
+
+Start: Thu, 22 Jan 2015 15:45:19 -0800 
+End: Thu, 22 Jan 2015 15:45:19 -0800 
+Tasks: Test wording updated.
+
+Start: Thu, 22 Jan 2015 12:23:53 -0800 
+End: Thu, 22 Jan 2015 12:23:53 -0800 
+Tasks: Updated git log command to be more useful.
+
+Start: Wed, 21 Jan 2015 14:54:02 -0800 
+End: Wed, 21 Jan 2015 14:54:02 -0800 
+Tasks: Expanded on log description.
+
+Start: Tue, 20 Jan 2015 21:49:04 -0800 
+End: Tue, 20 Jan 2015 21:49:04 -0800 
+Tasks: Minor updates
+
+Start: Tue, 20 Jan 2015 21:43:05 -0800 
+End: Tue, 20 Jan 2015 21:43:05 -0800 
+Tasks: Fix product to sum and tests
+
+Start: Mon, 19 Jan 2015 15:36:57 -0800 
+End: Mon, 19 Jan 2015 15:36:57 -0800 
+Tasks: Update variable test
+
+Start: Mon, 19 Jan 2015 15:32:20 -0800 
+End: Mon, 19 Jan 2015 15:32:20 -0800 
+Tasks: Fix lint issues
+
+Start: Sun, 18 Jan 2015 19:15:34 -0800 
+End: Sun, 18 Jan 2015 19:15:34 -0800 
+Tasks: Update collaborator info.
+
+Start: Sun, 18 Jan 2015 19:05:33 -0800 
+End: Sun, 18 Jan 2015 19:05:33 -0800 
+Tasks: Initial Commit
+
+Start: Sun, 18 Jan 2015 19:04:37 -0800 
+End: Sun, 18 Jan 2015 19:04:37 -0800 
+Tasks: Update log format
+
+Start: Sun, 18 Jan 2015 19:03:26 -0800 
+End: Sun, 18 Jan 2015 19:03:26 -0800 
+Tasks: Update description
+
+Start: Sun, 18 Jan 2015 18:45:32 -0800 
+End: Sun, 18 Jan 2015 18:45:32 -0800 
+Tasks: Update tests.
+
+Start: Sun, 18 Jan 2015 18:17:19 -0800 
+End: Sun, 18 Jan 2015 18:17:19 -0800 
+Tasks: Updated tests
+
+Start: Thu, 23 Oct 2014 01:46:06 -0700 
+End: Thu, 23 Oct 2014 01:46:06 -0700 
+Tasks: Running qunit tests via CLI
+
+Start: Thu, 23 Oct 2014 01:14:52 -0700 
+End: Thu, 23 Oct 2014 01:14:52 -0700 
+Tasks: add instructions
+
+Start: Thu, 23 Oct 2014 01:02:15 -0700 
+End: Thu, 23 Oct 2014 01:02:15 -0700 
+Tasks: run: `npm install; grun test;`
+
+Start: Tue, 14 Oct 2014 01:29:37 -0700 
+End: Tue, 14 Oct 2014 01:29:37 -0700 
+Tasks: Removed incomplete comment, add A comment
+
+Start: Tue, 14 Oct 2014 01:26:50 -0700 
+End: Tue, 14 Oct 2014 01:26:50 -0700 
+Tasks: Merge branch 'master' of https://github.com/OSU-CS494-F14/Basic-JavaScript-Assignment
+
+Start: Tue, 14 Oct 2014 01:26:24 -0700 
+End: Tue, 14 Oct 2014 01:26:24 -0700 
+Tasks: Add objects and functions
+
+Start: Mon, 13 Oct 2014 00:46:43 -0700 
+End: Mon, 13 Oct 2014 00:46:43 -0700 
+Tasks: Fix readme spelling
+
+Start: Mon, 13 Oct 2014 00:45:53 -0700 
+End: Mon, 13 Oct 2014 00:45:53 -0700 
+Tasks: Add clarification
+
+Start: Mon, 13 Oct 2014 00:35:44 -0700 
+End: Mon, 13 Oct 2014 00:35:44 -0700 
+Tasks: Change student code comments
+
+Start: Mon, 13 Oct 2014 00:35:01 -0700 
+End: Mon, 13 Oct 2014 00:35:01 -0700 
+Tasks: Add README.md
+
+Start: Mon, 13 Oct 2014 00:17:13 -0700 
+End: Mon, 13 Oct 2014 00:17:13 -0700 
+Tasks: Initial commit
