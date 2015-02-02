@@ -4,38 +4,6 @@ window.onload = function() {
 	getData();
 }
 
-function getLanguages2() {
-	var output = document.getElementById('output');
-	while (output.hasChildNodes()) {
-		output.removeChild(output.childNodes[0]);
-	}
-	var dl = document.createElement('dl');
-	var dt;
-	
-	if (document.getElementById('python').checked) {
-		dt = document.createElement('dt');
-		dt.innerHTML = 'Python';
-		dl.appendChild(dt);
-	}
-	if (document.getElementById('json').checked) {
-		dt = document.createElement('dt');
-		dt.innerHTML = 'JSON';
-		dl.appendChild(dt);
-	}
-	if (document.getElementById('javascript').checked) {
-		dt = document.createElement('dt');
-		dt.innerHTML = 'JavaScript';
-		dl.appendChild(dt);
-	}
-	if (document.getElementById('sql').checked) {
-		dt = document.createElement('dt');
-		dt.innerHTML = 'SQL';
-		dl.appendChild(dt);
-	}
-	output.appendChild(dl);
-}
-
-
 function getLanguages() {
 	var langs = [];
 	if (document.getElementById('python').checked) {
@@ -65,7 +33,7 @@ function getData() {
 	req.onreadystatechange = function() {
 		if (this.readyState === 4) {
 			data = JSON.parse(this.responseText);
-			console.log(data);
+			//console.log(data);
 		}
 	};
 	
@@ -121,10 +89,27 @@ function searchGist() {
 		var lang = lang_obj['language'];
 		
 		if (desc !== null && desc !== '' && url !== null && url !== '' && lang !== null && lang !== '' && arrayContain(langs, lang.toLowerCase())) {
-			var desc_link = desc.link(url);
-			var dt = document.createElement('dt');
-			dt.innerHTML = 'Description: ' + desc_link + ' (' + lang + ')';
-			dl.appendChild(dt);
+			var cb = document.createElement('input');
+			cb.type = 'checkbox';
+			//cb.name = 'name';
+			//cb.value = 'value';
+			cb.id = url; // b/c url is unique
+
+			var a = document.createElement('a');
+			a.appendChild(document.createTextNode(desc));
+			a.href = url;
+			a.target = '_blank';
+			
+			var label = document.createElement('label')
+			label.appendChild(document.createTextNode(' (' + lang + ')'));
+
+			var newline = document.createElement('br')
+			
+			dl.appendChild(cb);
+			dl.appendChild(a);
+			dl.appendChild(label);
+			dl.appendChild(newline);
+			
 			cnt++;
 			
 			if (cnt == num_page) {
